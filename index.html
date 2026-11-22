@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киносфера — фильмы, которые хочется посмотреть</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site-shell">
+
+    <header class="site-header">
+        <a class="logo" href="#top" aria-label="Киносфера">
+            <span class="logo__mark">К</span>
+            <span><strong>Киносфера</strong><small>фильмы, которые хочется посмотреть</small></span>
+        </a>
+
+        <nav class="nav" aria-label="Основная навигация">
+            <a class="nav__link nav__link--active" href="#top">Главная</a>
+            <a class="nav__link" href="#films">Фильмы</a>
+            <a class="nav__link" href="#genres">Жанры</a>
+            <a class="nav__link" href="#news">Новости</a>
+        </nav>
+
+        <div class="header-actions">
+            <button class="search" type="button" aria-label="Поиск">⌕ <span>Найти фильм</span></button>
+            <button class="login" type="button">Войти</button>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero__poster">
+                <img src="images/dune-3.jpg" alt="Постер фильма Дюна: Часть третья">
+            </div>
+            <div class="hero__content">
+                <span class="eyebrow">ПРЕМЬЕРА 2026</span>
+                <h1>Дюна: <span>Часть третья</span></h1>
+                <div class="meta">
+                    <span>2026</span><i>•</i><span>2 ч 30 мин</span><i>•</i><span>12+</span><i>•</i><span>Фантастика, драма</span>
+                </div>
+                <div class="rating"><b>8.4</b><span>★</span><small>оценка зрителей</small></div>
+                <p>Пол Атрейдес сталкивается с последствиями своей власти, пока новые угрозы и старые союзники меняют судьбу Империи. История продолжается спустя годы после событий предыдущей части.</p>
+                <div class="hero__buttons">
+                    <button class="primary" type="button">▶ Смотреть трейлер</button>
+                    <button class="secondary" type="button">♡ В избранное</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="films">
+            <div class="section-head">
+                <div><span class="eyebrow">ВЫБОР РЕДАКЦИИ</span><h2>Фильмы, о которых говорят</h2></div>
+                <a href="#films" class="more">Все фильмы →</a>
+            </div>
+
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <div class="movie-card__image">
+                        <img src="images/michael.jpg" alt="Постер фильма Майкл">
+                        <span class="badge">7.2 <em>★</em></span>
+                        <div class="movie-card__overlay">
+                            <p>Биографическая история Майкла Джексона — от первых выступлений до мировой славы.</p>
+                            <button type="button">▶ Смотреть</button>
+                        </div>
+                    </div>
+                    <div class="movie-card__body"><h3>Майкл</h3><p>Биография · Драма · Музыка</p></div>
+                </article>
+
+                <article class="movie-card">
+                    <div class="movie-card__image">
+                        <img src="images/spider-man.jpg" alt="Постер фильма Человек-паук: Новый день">
+                        <span class="badge">8.0 <em>★</em></span>
+                        <div class="movie-card__overlay">
+                            <p>Питер Паркер пытается жить новой жизнью, пока таинственная угроза не заставляет его вернуться к делу.</p>
+                            <button type="button">▶ Смотреть</button>
+                        </div>
+                    </div>
+                    <div class="movie-card__body"><h3>Человек-паук: Новый день</h3><p>Боевик · Фэнтези · Приключения</p></div>
+                </article>
+
+                <article class="movie-card">
+                    <div class="movie-card__image">
+                        <img src="images/materialists.jpg" alt="Постер фильма Материалистка">
+                        <span class="badge">7.1 <em>★</em></span>
+                        <div class="movie-card__overlay">
+                            <p>Нью-йоркская сваха оказывается между идеальным кандидатом и бывшим возлюбленным.</p>
+                            <button type="button">▶ Смотреть</button>
+                        </div>
+                    </div>
+                    <div class="movie-card__body"><h3>Материалистка</h3><p>Романтика · Комедия · Драма</p></div>
+                </article>
+
+                <article class="movie-card">
+                    <div class="movie-card__image">
+                        <img src="images/frankenstein.jpg" alt="Постер фильма Франкенштейн 2025">
+                        <span class="badge">7.4 <em>★</em></span>
+                        <div class="movie-card__overlay">
+                            <p>Гильермо дель Торо переосмысливает историю Виктора Франкенштейна и его трагического создания.</p>
+                            <button type="button">▶ Смотреть</button>
+                        </div>
+                    </div>
+                    <div class="movie-card__body"><h3>Франкенштейн</h3><p>Ужасы · Фэнтези · Драма</p></div>
+                </article>
+
+                <article class="movie-card">
+                    <div class="movie-card__image">
+                        <img src="images/obsession.jpg" alt="Постер фильма Обсессия">
+                        <span class="badge">6.5 <em>★</em></span>
+                        <div class="movie-card__overlay">
+                            <p>Желание исполнить мечту о любви оборачивается сверхъестественной и опасной историей.</p>
+                            <button type="button">▶ Смотреть</button>
+                        </div>
+                    </div>
+                    <div class="movie-card__body"><h3>Обсессия</h3><p>Ужасы · Триллер · Мистика</p></div>
+                </article>
+
+                <article class="movie-card">
+                    <div class="movie-card__image">
+                        <img src="images/zootopia-2.jpg" alt="Постер фильма Зверополис 2">
+                        <span class="badge">8.1 <em>★</em></span>
+                        <div class="movie-card__overlay">
+                            <p>Джуди и Ник берутся за новое загадочное дело, которое приводит их в неизведанные районы города.</p>
+                            <button type="button">▶ Смотреть</button>
+                        </div>
+                    </div>
+                    <div class="movie-card__body"><h3>Зверополис 2</h3><p>Мультфильм · Комедия · Приключения</p></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="genre-section" id="genres">
+            <div class="section-head">
+                <div><span class="eyebrow">НАСТРОЕНИЕ</span><h2>Выбери жанр</h2></div>
+            </div>
+            <div class="genres">
+                <a href="#films" class="genre"><img src="images/genre-fantasy.jpg" alt=""><span>Фантастика</span></a>
+                <a href="#films" class="genre"><img src="images/genre-drama.jpg" alt=""><span>Драма</span></a>
+                <a href="#films" class="genre"><img src="images/genre-comedy.jpg" alt=""><span>Комедия</span></a>
+                <a href="#films" class="genre"><img src="images/genre-action.jpg" alt=""><span>Боевик</span></a>
+                <a href="#films" class="genre"><img src="images/genre-horror.jpg" alt=""><span>Ужасы</span></a>
+            </div>
+        </section>
+
+        <section class="newsletter" id="news">
+            <div class="newsletter__icon">✦</div>
+            <div class="newsletter__text">
+                <span class="eyebrow">НЕ ПРОПУСТИ ПРЕМЬЕРУ</span>
+                <h2>Будь в курсе киноновинок</h2>
+                <p>Получай короткую подборку главных премьер и интересных фильмов раз в неделю.</p>
+            </div>
+            <form class="newsletter__form">
+                <label class="sr-only" for="email">Электронная почта</label>
+                <input id="email" type="email" placeholder="Твоя почта" required>
+                <button class="primary" type="submit">Подписаться</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="logo">
+            <span><strong>Киносфера</strong><small>учебный проект</small></span>
+        </div>
+        <div class="footer-links">
+            <a href="#top">Главная</a><a href="#films">Фильмы</a><a href="#genres">Жанры</a>
+        </div>
+        <p>2026 Киносфера</p>
+    </footer>
+</div>
+</body>
+</html>
