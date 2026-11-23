@@ -14,4 +14,4 @@ GitHub Pages: https://dobidibu.github.io/Dobidibu-lab6/
 Одностраничный сайт «Киносфера» с подборкой современных фильмов. В проекте использованы крупный постер, жанры, карточки фильмов, интерактивные эффекты при наведении и блок подписки на новости.
 
 ## Отчёт
-[Uploading Lab_6_Lezhnina.docx…]()
+[Lab_6_Lezhnina.docx](https://github.com/user-attachments/files/35247639/Lab_6_Lezhnina.docx)
