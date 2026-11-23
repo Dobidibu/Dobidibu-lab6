@@ -7,7 +7,7 @@
 
 Репозиторий: https://github.com/Dobidibu/Dobidibu-lab6
 
-GitHub Pages: https://USERNAME.github.io
+GitHub Pages: https://dobidibu.github.io/Dobidibu-lab6/
 
 ## Описание
 
