@@ -5,7 +5,8 @@
 Группа: ИСТ-37
 Вариант: 4 — Кинопостер
 
-Репозиторий: https://github.com/USERNAME/USERNAME.github.io
+Репозиторий: https://github.com/Dobidibu/Dobidibu-lab6
+
 GitHub Pages: https://USERNAME.github.io
 
 ## Описание
